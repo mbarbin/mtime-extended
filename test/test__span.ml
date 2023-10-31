@@ -7,6 +7,14 @@ let%expect_test "build and print" =
   [%expect {|
     3.14us
     3.14us |}];
+  print (Mtime_extended.Span.of_ms 114.857);
+  [%expect {|
+    114.857ms
+    114.857ms |}];
+  print (Mtime_extended.Span.of_sec 23.47);
+  [%expect {|
+    23.47s
+    23.47s |}];
   ()
 ;;
 
@@ -29,5 +37,18 @@ let%expect_test "span.sexp" =
   [%expect {|
     ((to_string_hum 8.2s)
      (t             8.2s)) |}];
+  ()
+;;
+
+let%expect_test "divide" =
+  let t = Mtime_extended.Span.of_sec 23.47 in
+  let mean = Mtime_extended.Span.divide t ~by:10 in
+  print_endline (mean |> Mtime_extended.Span.to_string_hum);
+  [%expect {| 2.347s |}];
+  (* Let's register here too how [Mtime] prints it. *)
+  Stdlib.Format.printf "%a%!" Mtime.Span.pp mean;
+  [%expect {| 2.35s |}];
+  print_endline (Mtime_extended.Span.to_ms mean |> Float.to_string);
+  [%expect {| 2347. |}];
   ()
 ;;
