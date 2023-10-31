@@ -11,3 +11,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 ### Fixed
 ### Removed
+
+## [2.0.0-extension.0.1] 2023-10-31
+
+Initial version based on mtime 2.0.0
+
+### Added
+
+- Span module with sexps and a few functions to build spans from floats
