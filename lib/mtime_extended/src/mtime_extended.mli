@@ -1,2 +1,1 @@
-val hello_world : Sexp.t
-val main : Command.t
+module Span = Span

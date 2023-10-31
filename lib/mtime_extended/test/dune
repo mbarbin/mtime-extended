@@ -8,13 +8,11 @@
   -open
   Base
   -open
-  Stdio
-  -open
   Expect_test_helpers_base)
  (libraries
   base
   expect_test_helpers_core.expect_test_helpers_base
-  stdio
+  mtime
   mtime-extended)
  (inline_tests)
  (preprocess
