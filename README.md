@@ -50,3 +50,8 @@ The repo itself is public so that I can publish its releases into my personal
 [opam-repository](https://github.com/mbarbin/opam-repository), install them in
 my local opam switches and refer to these packages from the workflow actions of
 other repos.
+
+## Code documentation
+
+The tip of the master branch is compiled with odoc and published to
+GitHub pages [here](https://mbarbin.github.io/mtime-extended/).
