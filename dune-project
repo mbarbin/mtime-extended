@@ -41,7 +41,8 @@
     :with-test
     (>= v0.16)
     (< v0.17)))
-  (mtime (>= 2.0.0))
+  (mtime
+   (>= 2.0.0))
   (ppx_jane
    (and
     (>= v0.16)
