@@ -18,7 +18,6 @@
 (package
  (name mtime-extended)
  (synopsis "Adding a few functions to Mtime to use alongside Base")
- (description "Adding a few functions to Mtime to use alongside Base")
  (depends
   (ocaml
    (>= 5.1))
