@@ -1,7 +1,6 @@
 # mtime-extended
 
 [![CI Status](https://github.com/mbarbin/mtime-extended/workflows/ci/badge.svg)](https://github.com/mbarbin/mtime-extended/actions/workflows/ci.yml)
-[![Deploy odoc Status](https://github.com/mbarbin/mtime-extended/workflows/deploy-odoc/badge.svg)](https://github.com/mbarbin/mtime-extended/actions/workflows/deploy-odoc.yml)
 
 This library adds a few functions to the
 [mtime](https://opam.ocaml.org/packages/mtime/) package to be use by projects
@@ -53,5 +52,5 @@ other repos.
 
 ## Code documentation
 
-The tip of the default branch is compiled with odoc and published to
-GitHub pages [here](https://mbarbin.github.io/mtime-extended/).
+The code documentation of the latest release is built with `odoc` and published
+to `GitHub` pages [here](https://mbarbin.github.io/mtime-extended).
