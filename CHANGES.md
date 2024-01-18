@@ -1,14 +1,9 @@
-## unreleased
-
-### Added
+## 2.0.0-extension.16.0 (2024-01-18)
 
 ### Changed
 
+- Internal changes related to build and release process.
 - Generate opam file from `dune-project`.
-
-### Fixed
-
-### Removed
 
 ## 2.0.0-extension.0.2 (2023-11-01)
 
