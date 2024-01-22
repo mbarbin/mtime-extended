@@ -8,7 +8,7 @@ homepage: "https://github.com/mbarbin/mtime-extended"
 doc: "https://mbarbin.github.io/mtime-extended/"
 bug-reports: "https://github.com/mbarbin/mtime-extended/issues"
 depends: [
-  "dune" {>= "3.12"}
+  "dune" {>= "3.13"}
   "ocaml" {>= "5.1"}
   "base" {>= "v0.16" & < "v0.17"}
   "bignum" {>= "v0.16" & < "v0.17"}
