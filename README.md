@@ -1,6 +1,7 @@
 # mtime-extended
 
 [![CI Status](https://github.com/mbarbin/mtime-extended/workflows/ci/badge.svg)](https://github.com/mbarbin/mtime-extended/actions/workflows/ci.yml)
+[![Coverage Status](https://coveralls.io/repos/github/mbarbin/mtime-extended/badge.svg?branch=main&service=github)](https://coveralls.io/github/mbarbin/mtime-extended?branch=main)
 
 This library adds a few functions to the
 [mtime](https://opam.ocaml.org/packages/mtime/) package to be use by projects
