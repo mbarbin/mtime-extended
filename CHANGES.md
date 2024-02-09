@@ -1,3 +1,14 @@
+## 2.0.0-extension.16.1 (2024-02-09)
+
+### Added
+
+- Setup `bisect_ppx` for test coverage.
+
+### Changed
+
+- Internal changes related to the release process.
+- Upgrade dune and internal dependencies.
+
 ## 2.0.0-extension.16.0 (2024-01-18)
 
 ### Changed
