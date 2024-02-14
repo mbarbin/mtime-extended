@@ -1,17 +1,9 @@
-## 2.0.0-extension.16.2 (unreleased)
-
-### Added
+## 2.0.0-extension.16.2 (2024-02-14)
 
 ### Changed
 
 - Upgrade dune to `3.14`.
 - Build the doc with sherlodoc available to enable the doc search bar.
-
-### Deprecated
-
-### Fixed
-
-### Removed
 
 ## 2.0.0-extension.16.1 (2024-02-09)
 
