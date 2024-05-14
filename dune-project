@@ -20,7 +20,7 @@
  (synopsis "Adding a few functions to Mtime to use alongside Base")
  (depends
   (ocaml
-   (>= 5.1))
+   (>= 5.2))
   (base
    (and
     (>= v0.17)
