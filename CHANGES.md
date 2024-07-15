@@ -1,3 +1,18 @@
+## 2.0.0-extension.16.4 (unreleased)
+
+### Added
+
+### Changed
+
+- Upgrade `ocaml` to `5.2`.
+- Upgrade `dune` to `3.16`.
+
+### Deprecated
+
+### Fixed
+
+### Removed
+
 ## 2.0.0-extension.16.3 (2024-03-13)
 
 ### Changed
