@@ -1,3 +1,14 @@
+## 2.0.0-extension.17.1 (2024-09-08)
+
+### Added
+
+- Configure `with-dev-setup` dependencies - attached to test package only.
+
+### Changed
+
+- Split test package.
+- Use `expect_test_helpers_core.expect_test_helpers_base`.
+
 ## 2.0.0-extension.17.0 (2024-07-26)
 
 ### Added

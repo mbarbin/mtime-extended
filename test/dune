@@ -1,5 +1,6 @@
 (library
  (name mtime_extended_test)
+ (public_name mtime-extended-tests.mtime_extended_test)
  (flags
   :standard
   -w
@@ -9,8 +10,12 @@
   -open
   Base
   -open
-  Expect_test_helpers)
- (libraries base expect-test-helpers mtime mtime_extended)
+  Expect_test_helpers_base)
+ (libraries
+  base
+  expect_test_helpers_core.expect_test_helpers_base
+  mtime
+  mtime_extended)
  (inline_tests)
  (instrumentation
   (backend bisect_ppx))
