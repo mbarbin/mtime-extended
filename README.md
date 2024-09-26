@@ -9,12 +9,9 @@ using [base](https://opam.ocaml.org/packages/base/).
 
 ## Usage
 
-The intended usage is to refer to the module `Mtime_extended` alongside `Mtime`
-for the needed bits, and keep on simply using `Mtime` as usual when no extended
-functionality is required.
+The intended usage is to refer to the module `Mtime_extended` alongside `Mtime` for the needed bits, and keep on simply using `Mtime` as usual when no extended functionality is required.
 
-For example, Mtime_extended adds a sexp serializer to `Mtime.Span.t`, thus
-allowing for example:
+For example, `Mtime_extended` adds a sexp serializer to `Mtime.Span.t`, thus allowing for example:
 
 ```ocaml file=example.ml
 open! Base
@@ -40,18 +37,12 @@ type my_type_using_spans =
 
 ## Motivations
 
-This experimental package is not meant to be published to the opam repository,
-nor is it meant for public consumption.
+This experimental package is not meant to be published to the opam repository, nor is it meant for public consumption.
 
-Really, I've just used this package as an excuse to toy with opam and experiment
-with some ways extension packages may be designed and distributed.
+Really, I've just used this package as an excuse to toy with opam and experiment with some ways extension packages may be designed and distributed.
 
-The repo itself is public so that I can publish its releases into my personal
-[opam-repository](https://github.com/mbarbin/opam-repository), install them in
-my local opam switches and refer to these packages from the workflow actions of
-other repos.
+The repo itself is public so that I can publish its releases into my personal [opam-repository](https://github.com/mbarbin/opam-repository), install them in my local opam switches and refer to these packages from the workflow actions of other repos.
 
 ## Code Documentation
 
-The code documentation of the latest release is built with `odoc` and published
-to `GitHub` pages [here](https://mbarbin.github.io/mtime-extended).
+The code documentation of the latest release is built with `odoc` and published to `GitHub` pages [here](https://mbarbin.github.io/mtime-extended).
