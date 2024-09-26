@@ -51,7 +51,7 @@ The repo itself is public so that I can publish its releases into my personal
 my local opam switches and refer to these packages from the workflow actions of
 other repos.
 
-## Code documentation
+## Code Documentation
 
 The code documentation of the latest release is built with `odoc` and published
 to `GitHub` pages [here](https://mbarbin.github.io/mtime-extended).
