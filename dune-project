@@ -15,6 +15,8 @@
 
 (documentation "https://mbarbin.github.io/mtime-extended/")
 
+(implicit_transitive_deps false)
+
 (package
  (name mtime-extended)
  (synopsis "Adding a few functions to Mtime to use alongside Base")
