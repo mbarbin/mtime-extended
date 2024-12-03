@@ -4,15 +4,18 @@ let%expect_test "build and print" =
     print_s [%sexp (t : Mtime_extended.Span.t)]
   in
   print (Mtime_extended.Span.of_us 3.14);
-  [%expect {|
+  [%expect
+    {|
     3.14us
     3.14us |}];
   print (Mtime_extended.Span.of_ms 114.857);
-  [%expect {|
+  [%expect
+    {|
     114.857ms
     114.857ms |}];
   print (Mtime_extended.Span.of_sec 23.47);
-  [%expect {|
+  [%expect
+    {|
     23.47s
     23.47s |}];
   ()
@@ -30,11 +33,13 @@ let%expect_test "span.sexp" =
         }]
   in
   print (Sexp.Atom "8.2s" |> [%of_sexp: Mtime_extended.Span.t]);
-  [%expect {|
+  [%expect
+    {|
     ((to_string_hum 8.2s)
      (t             8.2s)) |}];
   print (Mtime_extended.Span.of_sec 8.2);
-  [%expect {|
+  [%expect
+    {|
     ((to_string_hum 8.2s)
      (t             8.2s)) |}];
   ()
